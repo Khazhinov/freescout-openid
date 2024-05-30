@@ -1,0 +1,25 @@
+{
+    "name": "freescout/openid",
+    "description": "",
+    "authors": [
+        {
+            "name": "Vladislav Khazhinov",
+            "email": "khazhinov@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\OpenID\\Providers\\OpenIDServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\OpenID\\": ""
+        }
+    }
+}
